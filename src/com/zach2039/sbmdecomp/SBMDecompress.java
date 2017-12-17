@@ -33,7 +33,7 @@ public class SBMDecompress extends Frame implements ActionListener {
 	 * I don't own Zip4j, please don't sue thanks.
 	 */
 	public static void main(String[] args) {
-		// Create instance amd run.
+		// Create instance and run.
 		javax.swing.SwingUtilities.invokeLater(new Runnable() {
 			@Override
 			public void run() {
