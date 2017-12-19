@@ -1,4 +1,4 @@
-package com.zach2039.sbmdecomp;
+package com.zach2039.sbmunpacker;
 
 import java.awt.Button;
 import java.awt.Checkbox;
@@ -19,7 +19,7 @@ import java.util.List;
 
 import net.lingala.zip4j.core.ZipFile;
 
-public class SBMDecompress extends Frame implements ActionListener {
+public class SBMUnpacker extends Frame implements ActionListener {
 
 	private static final long serialVersionUID = -6798840607857622024L;
 
@@ -37,7 +37,7 @@ public class SBMDecompress extends Frame implements ActionListener {
 		javax.swing.SwingUtilities.invokeLater(new Runnable() {
 			@Override
 			public void run() {
-				SBMDecompress app = new SBMDecompress();
+				SBMUnpacker app = new SBMUnpacker();
 				
 				app.addWindowListener(new WindowAdapter() {
 					public void windowClosing(WindowEvent we) {
@@ -67,7 +67,7 @@ public class SBMDecompress extends Frame implements ActionListener {
 	private Button bBegin;
 	
 	// Constructor for the whole UI.
-	public SBMDecompress() {
+	public SBMUnpacker() {
 		// Declare new UI layout.
 		setLayout(new GridBagLayout());
 		GridBagConstraints gridC = new GridBagConstraints();
